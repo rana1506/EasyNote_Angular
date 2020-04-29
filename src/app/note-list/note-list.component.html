@@ -1,0 +1,5 @@
+<h1>Note List</h1>
+<div class="card" *ngFor="let note of notes">
+	<p><a routerLink="/note/{{note._id}}">{{note.title}}</a></p>
+</div>
+
